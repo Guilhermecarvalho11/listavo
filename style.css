@@ -1,0 +1,28 @@
+.container {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  
+  /* Responsividade para dispositivos móveis */
+  @media screen and (max-width: 480px) {
+    .container {
+      margin-top: 50px;
+    }
+  
+    h1 {
+      font-size: 20px;
+    }
+  
+    p {
+      font-size: 16px;
+    }
+  }
+  
